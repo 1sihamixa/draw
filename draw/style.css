@@ -1,0 +1,334 @@
+:root{
+    --colorOne:#FFB860 ;
+    --colorTwo:#2958D2 ;
+    --colorTree:white;
+    --colorfoor:black;
+    --police : Poppins;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    max-width: 99vw;
+    min-height: 99vh;
+    font-family: var(--police);
+}
+/* start nav */
+.global{
+    position:absolute;
+    width: 100%;
+    height: 106%;
+    background:linear-gradient(var(--colorTwo),var(--colorOne));
+    box-shadow: 0.5vmin 0.5vmin 0.5vmin var(--colorOne),;
+    margin-top:-2%;
+    padding:0;
+}
+.icon {
+    width: 2%;
+    height: 3%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.iconText{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    font-size: 100%;
+    font-weight: bold;
+}
+.list{
+    display:flex;
+    position:absolute;
+    top:10%;
+    right:27%;
+    width: 12%;
+    height: 7%;
+}
+li{
+    width:12%;
+    height:5%;
+    margin-left : 70%;
+    text-align: center;
+    list-style: none;
+    font-size: 85%;
+    font-weight: bold;
+}
+/* end nav */
+/* start img global */
+.imgGlobal{
+    width: 55%;
+    height: 50%;
+    position:absolute;
+    left:40%;
+    top:45%;
+}
+.titleglobale{
+    font-size: 155%;
+    position: absolute;
+    top: 35%;
+    left:-2%;
+    color:var(--colorTree);
+}
+.paraGlobal{
+    position:absolute;
+    top:55%;
+    left:5%;
+    font-size: 80%;
+    color:var(--colorTree);
+}
+.btnOne{
+    position: absolute;
+    left: 7%;
+    top: 72%;
+    padding:1%;
+    width:20%;
+    background: var(--colorOne);
+    color:var(--colorTree);
+    border:0.1% solid var(--colorTree);
+    border-radius: 6%;
+}
+/* end img global */
+/* start part two */
+.partTwo{
+    position:relative;
+    font-size:150%;
+    top:110%;
+    left:17%;
+    width: 80%;
+    height:50%
+}
+.titleTwo{
+    position:absolute;
+    text-align: center;
+}
+.paratwo{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    font-size: 70%;
+}
+.h3one{
+    position: absolute;
+    top: 80%;
+    color:var(--colorTwo);
+    font-size: 120%;
+}
+.h3two{
+    position: absolute;
+    left: 55%;
+    top: 80%;
+    color:var(--colorTwo);
+    font-size: 120%;
+}
+.h3three{
+    position:absolute;
+    top: 130%;
+    color:var(--colorTwo);
+    font-size: 120%;
+}
+.h3foor{
+    position: absolute;
+    left: 55%;
+    top: 130%;
+    color:var(--colorTwo);
+    font-size: 120%;
+}
+.partitleone{
+    position: absolute;
+    left: -10%;
+    top: 85%;
+    color:var(--colorfoor);
+    font-size: 80%;
+    width:190%;
+    padding:10%;
+}
+.partitletwo{
+    position: absolute;
+    left: -20%;
+    top: 80%;
+    color:var(--colorfoor);
+    font-size: 80%;
+    width:250%;
+    padding:10%;
+}
+.partitlethree{
+    position: absolute;
+    left: -10%;
+    color:var(--colorfoor);
+    font-size: 80%;
+    width:190%;
+    padding:10%;
+}
+.partitlefoor{
+    position: absolute;
+    left: -20%;
+    color:var(--colorfoor);
+    font-size: 80%;
+    width:250%;
+    padding:10%;
+}
+/* start part three */
+.simulateur{
+    width: 100%;
+    height:70%;
+    position:absolute;
+    top:210%;
+    background: var(--colorOne);
+}
+.titlesim{
+    text-align:center;
+    padding:7%;
+    font-size: 150%;
+}
+.formul{
+    text-align: center;
+}
+.input{
+    width:12%;
+    height:5%;
+    border:0.1vmin solid var(--colorfoor);
+    border-radius: 7%;
+    padding:1%;
+}
+#poids{
+    transform:translateX(-45%);
+}
+#select{
+    transform:translateX(45%);
+}
+.labpoids{
+    position: absolute;
+    top: 42%;
+    left: 13%;
+}
+.Dimensions{
+    position: absolute;
+    top: 42%;
+    left: 31%;
+}
+.distance{
+    position: absolute;
+    top: 42%;
+    left: 75%;
+}
+.bttntwo{
+    position:absolute;
+    top:80%;
+    left:44%;
+    display:block;
+    padding:1%;
+    background: var(--colorTwo);
+    border:0.1vmin solid var(--colorfoor);
+    border-radius: 5%;
+    color:var(--colorTree);
+    cursor: pointer;
+}
+/* end part three */
+/* start part foor */
+.vosdevis{
+    position:absolute;
+    width:100%;
+    height:60%;
+    top:280%;
+    display:none;
+}
+.devis{
+    text-align: center;
+    padding:5%;
+    font-size: 260%;
+}
+.standard{
+    width: 30%;
+    height:80%;
+    position: absolute;
+    left:12%;
+    padding:2%;
+    color:var(--colorTwo);
+    border-radius: 2%;
+    box-shadow: 0.5vmin 0.5vmin 0.5vmin rgb(220, 213, 213),inset 0.5vmin 0.5vmin 0.5vmin rgb(220, 213, 213);
+}
+.express{
+    width: 30%;
+    height:80%;
+    position: absolute;
+    left:57%;
+    padding:2%;
+    color:var(--colorTwo);
+    border-radius: 2%;
+    box-shadow: 0.5vmin 0.5vmin 0.5vmin rgb(220, 213, 213),inset 0.5vmin 0.5vmin 0.5vmin rgb(220, 213, 213);
+}
+.sum{
+    display: flex;
+}
+.bttnst, .bttnex{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    border:none;
+    border-radius: 5%;
+    padding:3%;
+    background: var(--colorOne);
+}
+.madst, .madex{
+    position: absolute;
+    top:45%;
+    left:10%;
+    font-size: 200%;
+    color:var(--colorfoor);
+}
+.bttnthree{
+    position: absolute;
+    top: 145%;
+    left: 40%;
+    padding:1%;
+    background: var(--colorTree);
+    border:0.1vmin solid var(--colorTwo);
+    border-radius: 5%;
+    color:var(--colorTwo);
+    width:20%;
+}
+/* end part foor */
+/* start footer */
+.iconfooter {
+    width: 2%;
+    height: 5%;
+    position: absolute;
+    left: 10%;
+    top:-20%;
+}
+.iconTextfooter{
+    position: absolute;
+    left: 12%;
+    top:-20%;
+    font-size: 100%;
+    font-weight: bold;
+}
+.footer{
+    width:100%;
+    height:60%;
+    position:absolute;
+    top:315%;
+    display: flex;
+    justify-content: space-around;
+    background:linear-gradient(var(--colorTree),var(--colorTwo));
+}
+.titlefooter{
+    color:var(--colorTwo);
+    transform:translateX(20%);
+}
+.footerone{
+    color:var(--colorfoor);
+}
+.imageone,.imagetwo{
+    width:20%;
+    height:10%;
+}
+.final{
+    position:absolute;
+    bottom:5%;
+    left:40%;
+}
